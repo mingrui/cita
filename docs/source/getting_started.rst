@@ -87,19 +87,19 @@ CITA的运行环境是Linux和OSX操作系统，目前不支持Windows系统。C
 
 .. code-block:: none
 
-  cita setup 0
+  cita setup node0
 
 2）启动节点 ``node0`` 的服务：
 
 .. code-block:: none
 
-  cita start 0
+  cita start node0
 
 而停止节点 ``node0`` 服务只需执行以下操作：
 
 .. code-block:: none
 
-  cita stop 0
+  cita stop node0
 
 此外， ``cita`` 命令中还包括其他操作，具体使用可以查看相关说明：
 ::
@@ -158,7 +158,6 @@ Result:
       "result": "0x8"
     }
 
-返回块高度，表示节点已经开始正常出块。
 
 更多API（如合约调用、交易查询）请参见 RPC调用_。
 
